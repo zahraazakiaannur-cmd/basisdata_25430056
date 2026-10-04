@@ -4,13 +4,13 @@
 
 \## Identitas
 
-\- Nama  : Zahra Zakia An Nur
+\- Nama: Zahra Zakia An Nur
 
-\- NIM   : 25430056
+\- NIM: 25430056
 
-\- Kelas : B
+\- Kelas: B
 
-\- Program Studi : Ilmu Komputer
+\- Program Studi: Ilmu Komputer
 
-\- Semester : 3
+\- Semester: 3
 
