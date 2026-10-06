@@ -1,11 +1,10 @@
-# Dokumen Kebutuhan Data - [Nama Organisasi Anda, memuat inisial]
+# Dokumen Kebutuhan Data - Yaya Library
 
-**Nama:** Zahra Zakia An Nur    **NIM:** 25430056    **Kelas:** B    **Tema:** Perpustakaan
+**Nama:** Zahra Zakia An Nur    
+**NPM:** 25430056    
+**Kelas:** B    
+**Tema:** Perpustakaan
 
-<!-- MILESTONE PROYEK 2 (45%). Isi harus berasal dari analisis Anda sendiri, berdasarkan paragraf Lingkup Layanan di README. Dokumen yang mirip akan diperiksa lewat viva: Anda harus bisa menjelaskan asal tiap aturan dari proses bisnisnya.
-Minimum: 4 proses bisnis, 6 entitas kandidat, 8 aturan bisnis, 5 kebutuhan informasi, matriks CRUD lengkap, kamus data minimal 20 elemen dengan penanggung jawab, kebutuhan non-fungsional (termasuk data pribadi), dan minimal satu dokumen sumber fiktif rancangan sendiri beserta pembedahannya.
-Perhatian khusus tema Perpustakaan: satu judul buku bisa memiliki banyak eksemplar.
-Hapus komentar ini sebelum commit. Commit: "p02: ..." -->
 
 ## 1. Latar belakang dan aktivitas organisasi
 
