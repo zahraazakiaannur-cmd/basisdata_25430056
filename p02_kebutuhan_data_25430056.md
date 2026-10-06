@@ -9,9 +9,11 @@ Hapus komentar ini sebelum commit. Commit: "p02: ..." -->
 
 ## 1. Latar belakang dan aktivitas organisasi
 
-<!-- Dasarnya paragraf Lingkup Layanan di README. Tulis ulang dengan kata-kata sendiri. -->
-
-[Tulis di sini]
+Yaya Library adalah perpustakaan fiktif yang melayani mahasiswa. Koleksinya terdiri dari buku, majalah, dan jurnal. Setiap judul dicatat dengan kode koleksi, judul, jenis, penulis, penerbit, tahun terbit, dan harga, dan satu judul bisa punya beberapa eksemplar yang masing-masing punya kode sendiri. Setiap eksemplar berstatus tersedia, dipinjam, atau hilang.
+Mahasiswa yang ingin menjadi anggota mendaftar di meja petugas dengan menyerahkan NIM, nama, program studi, dan nomor HP. Petugas mencatat tanggal pendaftaran dan memberikan nomor anggota berformat YL-xxxx. Anggota berstatus aktif sejak mendaftar. Petugas mengubahnya menjadi nonaktif ketika anggota tidak lagi berstatus mahasiswa, dan hanya anggota aktif yang boleh meminjam.
+Dalam satu transaksi peminjaman, anggota boleh membawa paling banyak 5 koleksi selama 7 hari. Setiap peminjaman dicatat petugas yang melayani, lengkap dengan tanggalnya. Koleksi dalam satu transaksi boleh dikembalikan sendiri-sendiri, dan tiap pengembalian dicatat dengan tanggal kembali masing-masing. Koleksi yang terlambat dikenai denda Rp3.000 per hari per koleksi, dibayar tunai saat pengembalian dan dicatat petugas. Koleksi yang hilang ditandai hilang dan tidak bisa dipinjam lagi. Anggota wajib menggantinya dengan koleksi yang sama atau membayar sesuai harga koleksi itu. Rata-rata ada sekitar 55 transaksi per hari.
+Ketika perpustakaan membeli atau menerima sumbangan koleksi baru, petugas menambahkannya ke data koleksi dan eksemplar. [tambahan] Setiap awal bulan, kepala perpustakaan menerima laporan berisi koleksi yang paling sering dipinjam, anggota paling aktif, koleksi yang lewat batas kembali, dan total denda yang terkumpul. 
+Kutipan wawancara. Kepala perpustakaan: "Tarif denda bisa berubah. Kalau ada anggota protes soal denda lama, kami susah membuktikan tarif yang berlaku waktu itu." Petugas: "Satu judul punya beberapa eksemplar, tapi kami tidak tahu eksemplar yang mana yang sedang keluar." Petugas: "Anggota sering mengembalikan sebagian dulu, sisanya belakangan, dan catatan kami jadi berantakan."
 
 ## 2. Aktor dan proses bisnis
 
