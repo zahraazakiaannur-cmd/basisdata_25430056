@@ -16,14 +16,13 @@ Kutipan wawancara. Kepala perpustakaan: "Tarif denda bisa berubah. Kalau ada ang
 
 ## 2. Aktor dan proses bisnis
 
-<!-- Min. 4 proses. Tandai kata kerja pada narasi layanan Anda, kelompokkan menurut pelaku. -->
-
-| Kode | Proses bisnis | Aktor | Pemicu |
+| Kode | Proses Bisnis | Aktor | Pemicu |
 |---|---|---|---|
-| PB-01 | | | |
-| PB-02 | | | |
-| PB-03 | | | |
-| PB-04 | | | |
+| PB-01 | Pendaftaran dan pengelolaan anggota | Petugas Perpustakaan | Mahasiswa ingin menjadi anggota perpustakaan |
+| PB-02 | Pengelolaan koleksi dan eksemplar | Petugas Perpustakaan | Perpustakaan menerima atau menambah koleksi |
+| PB-03 | Peminjaman koleksi | Anggota, Petugas Perpustakaan | Anggota ingin meminjam koleksi |
+| PB-04 | Pengembalian koleksi dan pencatatan denda | Anggota, Petugas Perpustakaan | Anggota mengembalikan koleksi |
+| PB-05 | Pelaporan aktivitas perpustakaan | Petugas Perpustakaan, Kepala Perpustakaan | Awal periode pelaporan |
 
 ## 3. Dokumen sumber yang dianalisis
 
