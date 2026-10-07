@@ -107,7 +107,6 @@ Dokumen: Nota Penjualan Kopma, No. PJ-2609-0142, tanggal 24-09-2026 10:15, kasir
 | qty_detail_penjualan      | Jumlah barang pada satu baris nota | 3          | Bilangan bulat > 0 dan <= stok (AB-03)  | Kasir            |
 | batas_minimum_stok        | Batas stok untuk memicu pesanan | 10            | Bilangan bulat >= 0 (AB-06)             | Petugas gudang   |
 
-
 ## 9. Kebutuhan non-fungsional data
 
 - **Volume:** perkiraan sekitar 150 nota per hari.
@@ -126,7 +125,7 @@ Dokumen: Nota Penjualan Kopma, No. PJ-2609-0142, tanggal 24-09-2026 10:15, kasir
 
 ---
 
-## Lampiran: Jawaban Titik Analisis dan Latihan (untuk laporan)
+## Lampiran: Jawaban Titik Analisis dan Latihan
 
 ### Titik Analisis 1
 Harga di data barang bisa berubah kapan saja. Kalau nota hanya mengambil harga lewat relasi ke data barang, setiap kali harga naik, total nota lama ikut berubah dan omzet bulan lalu jadi salah. Itulah sumber keluhan ketua yang bingung melihat nota lama. Dengan menyimpan harga saat transaksi pada tiap baris nota (AB-04), nota lama tetap menampilkan harga yang benar-benar dibayar pembeli.
@@ -147,7 +146,7 @@ Asumsi: poin dihitung dari total bayar setelah diskon, dibulatkan ke bawah.
 - **AB-10:** Pembeli umum tidak memperoleh poin; poin didapat dan ditukar dicatat per nota agar bisa ditelusuri.
 - **KI-05:** Saldo poin setiap anggota (data: anggota).
 - **KI-06:** Total poin diterbitkan dan ditukar per bulan (data: penjualan).
-- **Perubahan matriks CRUD:** PB-02 Catat penjualan pada kolom Anggota berubah dari R menjadi R, U (saldo poin diperbarui); kolom Penjualan tetap C (menyimpan poin didapat dan poin ditukar). PB-05 Laporan bulanan tetap membaca kolom Anggota dan Penjualan.
+- **Perubahan matriks CRUD:** PB-02 Catat penjualan pada kolom Anggota berubah dari R menjadi R, U (saldo poin 
 
 ### Latihan E.2: Memperbaiki pernyataan kabur
 
